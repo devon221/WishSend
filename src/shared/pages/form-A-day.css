@@ -1,0 +1,92 @@
+.form-container{
+    color : whitesmoke;
+    font-size: 25px;
+    width : 50vw ;
+    height : auto ;
+    background-color: rgb(39, 35, 35);
+    margin : 50px auto;
+    text-align: center;
+    border-radius: 12px;
+    padding : 12px 12px;
+    opacity: 0.8;
+}
+
+.form-input{
+    display : block;
+    margin : 20px ;
+    padding : 12px 12px;
+   
+}
+
+.form-input input{
+    border : none ;
+    border-radius: 6px;
+    padding : 5px ;
+    margin : 5px ;
+    width : 60% ;
+    outline: none;
+    font-size: 18px;
+}
+
+.lar-input input{
+    height : 90px ;
+}
+
+.form-input input:hover{
+    border : rgb(101, 233, 167) 2px solid ;
+    transition: 0.2s;
+}
+input[type=text]:focus{
+    border : rgb(101, 233, 167) 2px solid ;
+    transition: 0.2s;
+}
+
+.cont-btn{
+    color : whitesmoke;
+    font-size: 20px ;
+
+    width : 100px ;
+    height: 50px;
+    border : none ; 
+    background-color:rgb(34, 204, 34) ;
+    margin : 20px ;
+
+}
+
+.cont-btn:hover{
+    cursor: pointer;
+    background-color: rgb(20, 139, 46);
+    transition: 0.6s;
+
+}
+
+@media screen and (max-width: 440px) {
+    .cont-container{
+        font-size: 16px;
+        margin : 0px 20px ;
+        padding : 30px 30px ;
+    }
+
+    .cont-btn{
+        width: 110px ;
+        
+    }
+  }
+
+@media screen and (max-width: 440px) {
+    .form-container{
+        font-size : 15px;
+        width : 90vw;
+    }
+    .form-input input{
+        padding : 5px ;
+        margin : 5px ;
+        width : 90% ;
+    }
+    .form-input{
+        display : block;
+        margin : 10px ;
+        padding : 12px 12px;
+       
+    }
+  }

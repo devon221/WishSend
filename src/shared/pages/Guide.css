@@ -1,0 +1,54 @@
+body{
+    width : 100vw ; 
+    height : 100vh ;
+    background-image: url(../../comrawpixel2804191.jpg);
+    z-index: -999;
+}
+
+.content-container{
+    width : 60%;
+    margin :20px 100px;
+    padding : 40px 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+    color : rgb(37, 37, 37);
+    border-radius: 15%;
+    background-color: rgba(65, 64, 64, 0.61);
+
+}
+li{
+    list-style: none;
+    font-style: italic;
+}
+.content-btn{
+    color : whitesmoke;
+    font-size: 20px ;
+
+    width : 200px ;
+    height: 60px;
+    border : none ; 
+    background-color:rgb(34, 204, 34) ;
+    margin : 20px ;
+
+}
+
+.content-btn:hover{
+    cursor: pointer;
+    background-color: rgb(20, 139, 46);
+    transition: 0.6s;
+
+}
+
+@media screen and (max-width: 440px) {
+    .content-container{
+        font-size: 16px;
+        margin : 40px 40px ;
+        padding : 30px 30px ;
+    }
+
+    .content-btn{
+        width: 110px ;
+        
+    }
+  }

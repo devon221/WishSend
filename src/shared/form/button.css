@@ -1,0 +1,41 @@
+:root {
+    --def : #fff;
+}
+
+.btn{
+    padding : 7px 10px ;
+    font-family: 'PT Sans', sans-serif;
+    border-radius : 2px ;
+    outline : none; 
+    border : none ;
+    cursor : pointer ;
+}
+
+.btn--primary{
+    background-color: var(--def) ;
+    color : rgb(34, 19, 102);
+    border : 1px solid var(--def);
+}
+
+.btn--outline{
+    background-color: transparent;
+    color : #fff;
+    border : 1px solid var(--def);
+    transition : all 0.3s ease-out ;
+}
+
+.btn--medium{
+    padding : 8px 15px ;
+    font-size: 20px;
+}
+
+.btn--large{
+    padding : 12px 20px ;
+    font-size: 20px;
+}
+
+.btn--medium:hover , .btn--large:hover {
+    background: #fff;
+    color : rgb(34, 19, 102);
+    transition : all 0.4s ease-out ;
+}
