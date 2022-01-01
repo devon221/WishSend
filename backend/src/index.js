@@ -11,7 +11,7 @@ const app = express()
 const router = express.Router()
 const port = process.env.PORT || 5000
  
-const API_key = "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"
+const API_key = "WISHSEND_API_KEY_GET_YOURS_OWN"
 sgMail.setApiKey(API_key)
 
 app.use(cors({
