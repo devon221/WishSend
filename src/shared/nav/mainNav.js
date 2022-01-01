@@ -37,10 +37,10 @@ const MainNav = props => {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className="nav-item">
                     <Link to = "/" className="nav-links" onClick={closeMenu}>Guide</Link></li>
-                    <li className="nav-item "><Link to = "/b-day" className="nav-links" onClick={closeMenu}>Birthdays</Link></li>
-                    <li className="nav-item "><Link to = "/ann-day" className="nav-links" onClick={closeMenu}>Anniversary</Link>
+                    <li className="nav-item "><Link to = "/bdays" className="nav-links" onClick={closeMenu}>Reminder</Link></li>
+                    
 
-                </li>
+                
             </ul>
             
         </nav>

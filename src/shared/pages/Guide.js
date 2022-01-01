@@ -11,8 +11,8 @@ const Guide = props => {
             <div className="content-container">
                 
                 <ul>Steps to follow :
-                    <li>Enter the details. </li>
-                    <li>We will remember to wish them with a personalized email !.</li>
+                    <li>Enter the details in the form. </li>
+                    <li>We will remember to remind you !.</li>
                 </ul>
                
             </div>

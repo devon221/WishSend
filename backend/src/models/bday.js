@@ -7,7 +7,7 @@ const bday = mongoose.model('bday' , {
         trim : true ,
         required : true
     },
-    wishes : {
+    occasion : {
         type : String,
         required : true
     },
@@ -19,6 +19,12 @@ const bday = mongoose.model('bday' , {
         type : String , 
         required : true , 
         trim : true
+    }, 
+    day : {
+        type : Number
+    },
+    month : {
+        type : Number
     }
 })
 
